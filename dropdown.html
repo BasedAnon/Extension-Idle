@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Idle Extension Settings</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
         textarea {
             width: 100%;
             height: 150px;
@@ -13,14 +17,17 @@
         }
     </style>
 </head>
-<body>
+<body onload="loadSettingsUI()">
+    <h2>Idle Extension Settings</h2>
+
     <h3>Custom Prompts (JSON Array)</h3>
+    <p>Format: <code>[{"text":"Hello?","category":"casual","mood":"neutral"}]</code></p>
     <textarea id="customPrompts"></textarea>
 
     <h3>Global Idle Timer (Seconds)</h3>
     <input type="number" id="globalTimer" value="300">
 
-    <h3>Enable Mood Detection</h3>
+    <h3>Enable Mood Detection (Adjust prompts based on chat mood)</h3>
     <input type="checkbox" id="enableSentiment">
 
     <br><br>
