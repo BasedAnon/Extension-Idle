@@ -1,0 +1,52 @@
+[
+    {
+        "text": "Hey, are you still there?",
+        "category": "casual",
+        "mood": "neutral"
+    },
+    {
+        "text": "You seem quiet. Lost in thought?",
+        "category": "casual",
+        "mood": "neutral"
+    },
+    {
+        "text": "What are you thinking about right now?",
+        "category": "casual",
+        "mood": "neutral"
+    },
+    {
+        "text": "Want to talk about something deep? Or just shoot the breeze?",
+        "category": "casual",
+        "mood": "neutral"
+    },
+    {
+        "text": "I can tell you're in a good mood! What's making you smile?",
+        "category": "casual",
+        "mood": "positive"
+    },
+    {
+        "text": "You seem happy! Got some good news?",
+        "category": "casual",
+        "mood": "positive"
+    },
+    {
+        "text": "You okay? I get the feeling something’s bothering you.",
+        "category": "casual",
+        "mood": "negative"
+    },
+    {
+        "text": "Hey, I’m here if you want to vent.",
+        "category": "casual",
+        "mood": "negative"
+    },
+    {
+        "text": "Do you think everything happens for a reason?",
+        "category": "philosophical",
+        "mood": "neutral"
+    },
+    {
+        "text": "What’s your take on free will versus fate?",
+        "category": "philosophical",
+        "mood": "neutral"
+    }
+]
